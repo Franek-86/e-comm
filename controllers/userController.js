@@ -1,7 +1,7 @@
 require("dotenv").config();
 const { StatusCodes } = require("http-status-codes");
 const customError = require("../errors");
-const User = require("../models/user");
+const User = require("../models/User");
 const {
   attachCookiesToResponse,
   createUserToken,
